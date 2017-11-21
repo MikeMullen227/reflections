@@ -1,0 +1,7 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+you create a git repository in whatever folder you are in. its how you start using git in a project. 
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+it is a place temporary holding area between the two. it allows you to double check and reset if you made a mistake.
