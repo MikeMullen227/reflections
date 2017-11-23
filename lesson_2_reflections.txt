@@ -5,3 +5,25 @@ you create a git repository in whatever folder you are in. its how you start usi
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 it is a place temporary holding area between the two. it allows you to double check and reset if you made a mistake.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+you can use diff staged to compare the current commit to the previous one in the repository to decide whether it is a logical commit.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+when you want to do something experimental to your current project or you want to have a slightly changed version along with the current version of the project. branches let you do both things.
+
+5. How do the diagrams help you visualize the branch structure?
+
+branching can get complicated and some commits dont have branches so its good to see where those are in the whole scheme of things.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
+
+one branch.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: annoying to try to find where the conflicts are 
+
+cons: takes too much machine learning to figure out which parts of the conflicts to keep
